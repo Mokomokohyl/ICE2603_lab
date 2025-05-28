@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed May 21 14:48:17 2025
+# Process ID: 5940
+# Current directory: Z:/25Spring/Vivado_lab/Final_Project/Final_Project/Final_Project.runs/lpm_rom_irom_synth_1
+# Command line: vivado.exe -log lpm_rom_irom.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lpm_rom_irom.tcl
+# Log file: Z:/25Spring/Vivado_lab/Final_Project/Final_Project/Final_Project.runs/lpm_rom_irom_synth_1/lpm_rom_irom.vds
+# Journal file: Z:/25Spring/Vivado_lab/Final_Project/Final_Project/Final_Project.runs/lpm_rom_irom_synth_1\vivado.jou
+#-----------------------------------------------------------
+source lpm_rom_irom.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP lpm_rom_irom, cache-ID = 2ff3e79849468b9f.
+INFO: [Common 17-206] Exiting Vivado at Wed May 21 14:48:27 2025...

@@ -1,0 +1,20 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+Z:/25Spring/Vivado_lab/lab1/src/alu.v,1744194909,verilog,,Z:/25Spring/Vivado_lab/lab3/src/src/cla32.v,,alu,,,,,,,,
+Z:/25Spring/Vivado_lab/lab2/src/immext.v,1744870435,verilog,,Z:/25Spring/Vivado_lab/lab3/src/src/mux2x32.v,,immext,,,,,,,,
+Z:/25Spring/Vivado_lab/lab2/src/sc_cu.v,1744869620,verilog,,Z:/25Spring/Vivado_lab/lab3/src/src/sc_datamem.v,,sc_cu,,,,,,,,
+Z:/25Spring/Vivado_lab/lab3/src/sim/TB_sc_computer.v,1640844272,verilog,,,,TB_sc_computer,,,,,,,,
+Z:/25Spring/Vivado_lab/lab3/src/src/cla32.v,1586946772,verilog,,Z:/25Spring/Vivado_lab/lab3/src/src/dff32.v,,cla32,,,,,,,,
+Z:/25Spring/Vivado_lab/lab3/src/src/dff32.v,1635303180,verilog,,Z:/25Spring/Vivado_lab/lab2/src/immext.v,,dff32,,,,,,,,
+Z:/25Spring/Vivado_lab/lab3/src/src/mux2x32.v,1252908546,verilog,,Z:/25Spring/Vivado_lab/lab3/src/src/mux4x32.v,,mux2x32,,,,,,,,
+Z:/25Spring/Vivado_lab/lab3/src/src/mux4x32.v,1252998690,verilog,,Z:/25Spring/Vivado_lab/lab3/src/src/regfile.v,,mux4x32,,,,,,,,
+Z:/25Spring/Vivado_lab/lab3/src/src/regfile.v,1639981610,verilog,,Z:/25Spring/Vivado_lab/lab3/src/src/sc_computer.v,,regfile,,,,,,,,
+Z:/25Spring/Vivado_lab/lab3/src/src/sc_computer.v,1649416292,verilog,,Z:/25Spring/Vivado_lab/lab3/src/src/sc_cpu.v,,sc_computer,,,,,,,,
+Z:/25Spring/Vivado_lab/lab3/src/src/sc_cpu.v,1746447819,verilog,,Z:/25Spring/Vivado_lab/lab2/src/sc_cu.v,,sc_cpu,,,,,,,,
+Z:/25Spring/Vivado_lab/lab3/src/src/sc_datamem.v,1640838086,verilog,,Z:/25Spring/Vivado_lab/lab3/src/src/sc_instmem.v,,sc_datamem,,,,,,,,
+Z:/25Spring/Vivado_lab/lab3/src/src/sc_instmem.v,1640838300,verilog,,Z:/25Spring/Vivado_lab/lab3/src/sim/TB_sc_computer.v,,sc_instmem,,,,,,,,
+Z:/25Spring/Vivado_lab/projects/project_3/project_3.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+Z:/25Spring/Vivado_lab/projects/project_3/project_3.srcs/sources_1/ip/lpm_ram_dq_dram_1/sim/lpm_ram_dq_dram.v,1745410312,verilog,,Z:/25Spring/Vivado_lab/projects/project_3/project_3.srcs/sources_1/ip/lpm_rom_irom/sim/lpm_rom_irom.v,,lpm_ram_dq_dram,,,,,,,,
+Z:/25Spring/Vivado_lab/projects/project_3/project_3.srcs/sources_1/ip/lpm_rom_irom/sim/lpm_rom_irom.v,1745398732,verilog,,Z:/25Spring/Vivado_lab/lab1/src/alu.v,,lpm_rom_irom,,,,,,,,

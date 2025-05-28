@@ -1,0 +1,116 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Wed May 21 16:19:13 2025
+| Host         : HUANGYILUMA58AA running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file sc_cpu_iotest_control_sets_placed.rpt
+| Design       : sc_cpu_iotest
+| Device       : xc7a50t
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    38 |
+|    Minimum number of control sets                        |    38 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |     8 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    38 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     3 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    34 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              29 |           10 |
+| No           | No                    | Yes                    |              51 |           17 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |            1016 |          714 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+----------------------------------------------+--------------------------------+------------------+----------------+
+|      Clock Signal     |                 Enable Signal                |        Set/Reset Signal        | Slice Load Count | Bel Load Count |
++-----------------------+----------------------------------------------+--------------------------------+------------------+----------------+
+|  dmem_clock_BUFG      | computer_main/imem/clock_out_reg_0[0]        | computer_main/cpu/rf/sys_rst_n |                1 |              8 |
+|  dmem_clock_BUFG      | computer_main/imem/E[0]                      | computer_main/cpu/rf/sys_rst_n |                1 |              8 |
+|  dmem_clock_BUFG      | computer_main/imem/clock_out_reg[0]          | computer_main/cpu/rf/sys_rst_n |                1 |              8 |
+|  sys_clk_in_IBUF_BUFG |                                              |                                |                4 |             13 |
+|  dmem_clock_BUFG      |                                              |                                |                6 |             16 |
+|  sys_clk_in_IBUF_BUFG |                                              | computer_main/cpu/rf/sys_rst_n |                5 |             19 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_27[0] | computer_main/cpu/rf/sys_rst_n |               24 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_13[0] | computer_main/cpu/rf/sys_rst_n |               22 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_15[0] | computer_main/cpu/rf/sys_rst_n |               23 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_11[0] | computer_main/cpu/rf/sys_rst_n |               21 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_28[0] | computer_main/cpu/rf/sys_rst_n |               24 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_1[0]  | computer_main/cpu/rf/sys_rst_n |               20 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_30[0] | computer_main/cpu/rf/sys_rst_n |               25 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_20[0] | computer_main/cpu/rf/sys_rst_n |               23 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_4[0]  | computer_main/cpu/rf/sys_rst_n |               24 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_9[0]  | computer_main/cpu/rf/sys_rst_n |               21 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_23[0] | computer_main/cpu/rf/sys_rst_n |               22 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_16[0] | computer_main/cpu/rf/sys_rst_n |               22 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_10[0] | computer_main/cpu/rf/sys_rst_n |               23 |             32 |
+|  clock_BUFG           |                                              | computer_main/cpu/rf/sys_rst_n |               12 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_29[0] | computer_main/cpu/rf/sys_rst_n |               23 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_12[0] | computer_main/cpu/rf/sys_rst_n |               22 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_18[0] | computer_main/cpu/rf/sys_rst_n |               25 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_17[0] | computer_main/cpu/rf/sys_rst_n |               25 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_19[0] | computer_main/cpu/rf/sys_rst_n |               23 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_24[0] | computer_main/cpu/rf/sys_rst_n |               25 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_2[0]  | computer_main/cpu/rf/sys_rst_n |               21 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_21[0] | computer_main/cpu/rf/sys_rst_n |               22 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_8[0]  | computer_main/cpu/rf/sys_rst_n |               20 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_3[0]  | computer_main/cpu/rf/sys_rst_n |               20 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_0[0]  | computer_main/cpu/rf/sys_rst_n |               24 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_5[0]  | computer_main/cpu/rf/sys_rst_n |               23 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_25[0] | computer_main/cpu/rf/sys_rst_n |               25 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_6[0]  | computer_main/cpu/rf/sys_rst_n |               24 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_22[0] | computer_main/cpu/rf/sys_rst_n |               21 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_7[0]  | computer_main/cpu/rf/sys_rst_n |               23 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_14[0] | computer_main/cpu/rf/sys_rst_n |               27 |             32 |
+|  clock_BUFG           | computer_main/imem/register[1][31]_i_3_26[0] | computer_main/cpu/rf/sys_rst_n |               24 |             32 |
++-----------------------+----------------------------------------------+--------------------------------+------------------+----------------+
+
+

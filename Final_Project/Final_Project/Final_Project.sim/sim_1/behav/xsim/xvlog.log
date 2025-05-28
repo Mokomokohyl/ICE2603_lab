@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/25Spring/Vivado_lab/Final_Project/src/sc_cu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_cu
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [Z:/25Spring/Vivado_lab/Final_Project/src/sc_cu.v:74]

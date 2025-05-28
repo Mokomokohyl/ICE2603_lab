@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed May  7 11:22:33 2025
+# Process ID: 5732
+# Current directory: Z:/25Spring/Vivado_lab/projects/project_4/project_4.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source Z:/25Spring/Vivado_lab/projects/project_4/project_4.sim/sim_1/behav/xsim/xsim.dir/TB_sc_computer_iotest_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: Z:/25Spring/Vivado_lab/projects/project_4/project_4.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: Z:/25Spring/Vivado_lab/projects/project_4/project_4.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source Z:/25Spring/Vivado_lab/projects/project_4/project_4.sim/sim_1/behav/xsim/xsim.dir/TB_sc_computer_iotest_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed May  7 11:22:37 2025...

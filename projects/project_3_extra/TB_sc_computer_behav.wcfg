@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_sc_computer_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_sc_computer" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2049995833fs"></ZoomStartTime>
+      <ZoomEndTime time="2050000834fs"></ZoomEndTime>
+      <Cursor1Time time="2050000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="326"></NameColumnWidth>
+      <ValueColumnWidth column_width="161"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/TB_sc_computer/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer/inst" type="array">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer/memout" type="array">
+      <obj_property name="ElementShortName">memout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">memout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer/imem_clk" type="logic">
+      <obj_property name="ElementShortName">imem_clk</obj_property>
+      <obj_property name="ObjectShortName">imem_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer/dmem_clk" type="logic">
+      <obj_property name="ElementShortName">dmem_clk</obj_property>
+      <obj_property name="ObjectShortName">dmem_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer/mem_clk" type="logic">
+      <obj_property name="ElementShortName">mem_clk</obj_property>
+      <obj_property name="ObjectShortName">mem_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer/CYC" type="array">
+      <obj_property name="ElementShortName">CYC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CYC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_sc_computer/computer/cpu/rf/register" type="array">
+      <obj_property name="ElementShortName">register[1:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register[1:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

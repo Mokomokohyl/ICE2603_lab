@@ -1,0 +1,31 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Final_Project.srcs/sources_1/ip/lpm_ram_dq_dram/sim/lpm_ram_dq_dram.v" \
+"../../../../Final_Project.srcs/sources_1/ip/lpm_rom_irom/sim/lpm_rom_irom.v" \
+"../../../../../src/alu.v" \
+"../../../../../src/cla32.v" \
+"../../../../../src/clock_and_mem_clock.v" \
+"../../../../../src/dff32.v" \
+"../../../../../src/display.v" \
+"../../../../../src/immext.v" \
+"../../../../../src/in_port.v" \
+"../../../../../src/io_input.v" \
+"../../../../../src/io_output.v" \
+"../../../../../src/mux2x32.v" \
+"../../../../../src/mux4x32.v" \
+"../../../../../src/out_port_hex2dec.v" \
+"../../../../../src/regfile.v" \
+"../../../../../src/sc_computer_main.v" \
+"../../../../../src/sc_cpu.v" \
+"../../../../../src/sc_cpu_iotest.v" \
+"../../../../../src/sc_cu.v" \
+"../../../../../src/sc_datamem.v" \
+"../../../../../src/sc_instmem.v" \
+"../../../../../src/seg7.v" \
+"../../../../../sim/TB_sc_computer_iotest.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

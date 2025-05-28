@@ -1,0 +1,31 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/25Spring/Vivado_lab/projects/project_3_extra/project_3_extra.srcs/sources_1/ip/lpm_ram_dq_dram/sim/lpm_ram_dq_dram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpm_ram_dq_dram
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/25Spring/Vivado_lab/projects/project_3_extra/project_3_extra.srcs/sources_1/ip/lpm_rom_irom/sim/lpm_rom_irom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpm_rom_irom
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/25Spring/Vivado_lab/lab1/src/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/25Spring/Vivado_lab/lab3/src_extra/branch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/25Spring/Vivado_lab/lab3/src/src/cla32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla32
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/25Spring/Vivado_lab/lab2/src/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/25Spring/Vivado_lab/lab3/src_extra/immext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module immext
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/25Spring/Vivado_lab/lab3/src/src/mux2x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/25Spring/Vivado_lab/lab3/src/src/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/25Spring/Vivado_lab/lab3/src/src/sc_computer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_computer
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/25Spring/Vivado_lab/lab3/src_extra/sc_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/25Spring/Vivado_lab/lab3/src_extra/sc_cu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_cu
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [Z:/25Spring/Vivado_lab/lab3/src_extra/sc_cu.v:68]
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/25Spring/Vivado_lab/lab3/src/src/sc_datamem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_datamem
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/25Spring/Vivado_lab/lab3/src/src/sc_instmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sc_instmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/25Spring/Vivado_lab/lab3/src/sim/TB_sc_computer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_sc_computer
